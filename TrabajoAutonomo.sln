@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventarioAPI", "InventarioAPI\InventarioAPI.csproj", "{CDA06895-6672-4B05-A2AE-1C540BB6EA39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA06895-6672-4B05-A2AE-1C540BB6EA39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA06895-6672-4B05-A2AE-1C540BB6EA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA06895-6672-4B05-A2AE-1C540BB6EA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA06895-6672-4B05-A2AE-1C540BB6EA39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

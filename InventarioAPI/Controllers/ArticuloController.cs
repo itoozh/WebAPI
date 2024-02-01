@@ -38,10 +38,10 @@ public class ArticuloController : ControllerBase
         return BadRequest();
     }
     
-    [HttpDelete]
-    public async Task<ActionResult> Delete(Articulo articulo)
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(int id)
     {
-        Context.Articulos.Remove(articulo);
+        Context.Articulos.Remove(new Articulo {Id = id});
         if (await Context.SaveChangesAsync() > 0) return Ok();
         return BadRequest();
     }
